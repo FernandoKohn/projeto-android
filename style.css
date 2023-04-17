@@ -6,20 +6,38 @@ p {
     text-align: center;
 }
 
-a {
+main a {
     text-decoration: none;
     background-color: #83e1ad;
     padding: 2px 5px;
 }
 
-a:hover {
+header a:hover {
+    background-color: #085512;
+}
+
+main a:hover {
     text-decoration: underline;
 }
 
-a::after {
+main a::after {
     content: '\00A0\1F517';
 }
 
+header a {
+    text-decoration: none;
+    color: rgb(196, 255, 194);
+}
+
+nav {
+    padding-bottom: 30px;
+}
+
+nav a {
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
 
 header {
     background-image: linear-gradient(to bottom, #2fa866, #063d1e);
@@ -37,40 +55,22 @@ h1.cabeca {
     font-size: 50px;
     margin: 0;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.308);
+    margin-bottom: 20px;
     
 }
 
 p.cabeca {
-    text-align: center;
-    color: rgb(228, 227, 227);
     font-family: sans-serif;
-    font-size: 18px;
-    margin-top: 30px;
-}
-
-menu {
-    text-align: left;
-    padding: 0;
-}
-
-menu ul {
-    list-style: none;
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
     padding-left: 10px;
-    margin-top: 40px;
+    margin: auto;
+    padding-bottom: 55px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
-menu li {
-    display: inline;
-    padding: 8px;
-    color: rgb(196, 255, 194);
-}
-
-menu li:hover {
-    background-color: #3ec95057;
-    border-radius: 7px;
-    cursor: pointer;
-    
-}
 
 body {
     background-color: #ebe5c5;
